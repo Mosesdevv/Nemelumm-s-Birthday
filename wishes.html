@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friends' Corner</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', sans-serif;
+      text-align: center;
+      background: linear-gradient(45deg, #84fab0, #8fd3f4);
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #0066cc;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    .friends-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .friend-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .friend-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .friend-card a {
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #003366;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Friends' Corner 🎉</h1>
+  <div class="friends-container">
+
+    <div class="friend-card">
+      <a href="family.html">Family</a>
+    </div>
+    <div class="friend-card">
+        <a href="adeola.html">Adeola</a>
+      </div>
+    <div class="friend-card">
+      <a href="precious.html">Preious</a>
+    </div>
+    <div class="friend-card">
+      <a href="elsie.html">Elsie</a>
+    </div>
+    <div class="friend-card">
+      <a href="moses.html">One Special Boy</a>
+    </div>
+  </div>
+  <footer>✨ Click on a friend to see their special wish! ✨</footer>
+</body>
+</html>
